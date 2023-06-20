@@ -4,6 +4,8 @@ require'nvim-treesitter.configs'.setup {
   autopairs = {
     enable = true,
   },
+  map_cr = true, -- Map the Enter key to close HTML tags
+  map_c = true, -- Map the C key to close HTML tags in insert mode
   -- Install parsers synchronously (only applied to `ensure_installed`)
   sync_install = false,
 
@@ -22,3 +24,5 @@ require'nvim-treesitter.configs'.setup {
     additional_vim_regex_highlighting = false,
   },
 }
+
+
