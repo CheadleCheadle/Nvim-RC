@@ -1,5 +1,6 @@
 require("cheadle.remap")
 require("cheadle.set")
+
 local npairs = require('nvim-autopairs')
 
 -- Enable autopairs
@@ -9,4 +10,5 @@ npairs.setup({
     disable_filetype = { 'html' }, -- Disable autopairs for HTML by default
 })
 
--- Add HTML pairs
+
+
